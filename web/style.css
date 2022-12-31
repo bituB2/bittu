@@ -1,0 +1,131 @@
+*{
+    box-sizing:border-box;
+}
+.body{
+    display: grid;
+    grid-template-rows:1fr;
+}
+.parent{
+    max-width: 100%;
+    max-height: 40%;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(29, 136, 24, 0.636);
+   
+}
+.logo{
+    padding-left: 22px;
+    font-family:'Times New Roman', Times, serif;
+}
+.right{
+    display: flex;
+    padding-right: 22px;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.header ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: smaller;
+
+}
+.top{
+    display: grid;
+	grid-template-rows:1fr;
+}
+.log{
+    padding-top: 22px;
+}
+.login{
+    padding: 0.5em 1.1em;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #fff;
+    background-color: #ce1a1a;
+    box-shadow: 2px 2px 25px -7px #4c4c4c;
+    cursor: pointer;
+}
+.two{
+    background-color: rgba(29, 136, 24, 0.636) ;
+    padding: 22px 30px;
+    font-family:'Unbounded', cursive;
+    display: flex;
+}
+.caption h1{
+    color: antiquewhite;
+}
+
+.two p{
+    font-size: 0.7em;
+    color: #d7cece;
+}
+.two .buy{
+    padding-top: 22px;
+}
+.buttons{
+    padding: 0.5em 1.1em;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #fff;
+    background-color: #ce1a1a;
+    box-shadow: 2px 2px 25px -7px #4c4c4c;
+    cursor: pointer;
+}
+.parent2{
+    display: flex;
+}
+.img{
+    right: 20px;
+    top: 20px;
+    position: absolute;
+    width: 665px;
+}
+.sen{
+    padding-top: 77px;
+    padding-left: 30px;
+}
+.sen h1{
+    font-family: 'Roboto Slab', serif;
+}
+.sen p{
+    font-size:smaller;
+    color: rgb(153, 157, 160);
+
+}
+.sen span{
+    cursor: pointer;
+    padding-top: 22px;
+    padding-left: 22px;
+    font-weight: 900;
+}
+@media  screen and (max-width:768px) {
+    .web{
+        flex-direction: column;
+        width: 100%; margin:auto;display: block;
+    }
+    .img{
+
+    }
+    
+}
